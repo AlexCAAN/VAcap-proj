@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-image: url(../images/love-g32e5e649f_1920.jpg);
+    background-attachment: fixed;
+    background-position:fixed ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    color: white;
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 11vh;
+    background-color: black;
+}
+
+.movies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+
+footer > .logo-div {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: end;
+}
+
+footer > .logo-div a {
+    text-decoration: none;
+}
+
+@media(min-width: 48em) {
+    .film  iframe {
+       width: 350px;
+       height: 300px;
+    }
+    .movies {
+        margin: 0 600px;
+    }
+
+   
+}
