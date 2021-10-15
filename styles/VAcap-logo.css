@@ -1,0 +1,29 @@
+.logo-div {
+    line-height: 0px;
+    /* height: 20px; */
+    font-size: 2em;
+    margin-top: -15px;
+    margin-left: -35px;
+}
+
+.vacap-logo {
+    display: flex;
+    height: 10px;
+    justify-content: center;
+    color: red;
+    padding-bottom: 15px;
+}
+
+.vacap-logo h1 {
+    margin-right: -15px;
+}
+
+.vacap-logo h3 {
+    padding-top: 3.5px;
+}
+
+.line-logo {
+    padding-left: 60px;
+    margin-top: -37.5px;
+    color: red;
+}

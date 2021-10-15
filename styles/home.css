@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background-color: black;
+    background-image:url(../images/codepen-background.png);
+    opacity: .85;
+    background-attachment: fixed;
+    background-position:fixed ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading {
+    display: flex;
+    color: #cbcbcb;
+    background-color: rgb(221, 206, 1);
+    width: 100vw;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.575);
+}
+
+.genre-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.comedy-container > .comedy-title {
+    margin-top: 200px;
+    margin-left: -100px;
+    color: yellow;
+}
+
+.comedy-container > .comedy-title a {
+    text-decoration: none;
+    color: yellow;
+    background-color: black;
+    padding: 10px;
+    border: white solid 1px;
+}
+
+
+.dark-button a{
+    text-decoration: none;
+    color: rgb(194, 193, 171);
+    padding: 28.5px 27px;
+}
+
+.dark-button {
+    padding: 30.5px 0px;
+    background-color:rgb(6, 11, 90);
+    margin-top: -1;
+    border-bottom: 4px solid rgba(96, 120, 253, 0.575);
+}
+
+.side-bar {
+    background-color: rgb(84, 25, 112);
+    width: 150px;
+    height: 80vh;
+    padding: 13px;
+    border: 4px black solid;
+}
+
+.side-bar a{
+    text-decoration: none;
+    line-height: 50px;
+    color: wheat;
+}
+
+.genre-selector {
+    padding-left: 15px;
+    color: white;
+}
+
+.genre-selector li {
+    padding-left: 15px;
+    color: white;
+    width: 110px;
+    border-bottom: black solid 1px;
+}
+
+.genre-selector a {
+    line-height: 25px;
+}
+
+@media(min-width:48em) {
+
+}
+
+@media(max-width:48em) {
+    .genre-selector {
+        padding-left: 15px;
+        color: white;
+    }
+
+    .side-bar a{
+        color: wheat;
+    }
+    
+}
